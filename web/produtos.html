@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Bikcraft - Produtos</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/produtos.css">
+		<link rel="stylesheet" href="css/responsivo.css">
+		<link rel="stylesheet" href="css/contato.css">
+		<script>document.documentElement.classList.add("js");</script>
+	</head>
+	<body>
+
+		<header class="header">
+			<div class="container">
+				<a href="index.html" class="grid-4">
+					<img src="img/bikcraft.svg" alt="Bikcraft">
+				</a>
+				<nav class="grid-12 header_menu">
+					<ul>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="produtos.html"> Coleta de Resíduos </a></li>
+						<li><a href="portfolio.html">Nossos trabalho</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="introducao-interna interna_produtos">
+			<div class="container">
+				<h1 data-anime="400" class="fadeInDown">SOLICITE A SUA COLETA</h1>
+				<p data-anime="800" class="fadeInDown">Obrigado por fazer melhor o meio ambiente</p>
+			</div>
+		</section>
+
+
+		<section class="contato container fadeInDown" data-anime="1200">
+			<form id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" name="nome" required>
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" name="telefone">
+
+				<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+				<input type="text" class="nao-aparece" name="leaveblank">
+				<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+				<input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea id="mensagem" name="mensagem" required></textarea>
+				<button id="enviar" name="enviar" type="submit" class="btn btn-preto">Enviar</button>
+			</form>
+
+		</section>
+
+		<section class="container contato_mapa">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14645.455704249225!2d-46.84796402758633!3d-23.411217371469522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf1d42ea37dd5f%3A0xf6ca118778bf57bc!2sPolvilho%2C%20Cajamar%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1645660691365!5m2!1spt-BR!2sbr" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</section>
+
+		<section class="quebra">
+			<blockquote class="quote-externo container">
+				<p>“Antes de pensarmos em reciclagem, precisamos reduzir a quantidade que produzimos todos os dias. Mudamos hábitos e criando alternativas concientes.”</p>
+				<cite>WILLIAM MORRIS</cite>
+			</blockquote>
+		</section>
+
+		<footer>
+			<div class="footer">
+				<div class="container">
+
+					<div class="grid-8 footer_historia">
+						<h3>Nossa História</h3>
+						<p>Todas as pessoas têm o direito a um meio ambiente equilibrado, assim, a sua preservação é essencial, e noz lutamos para que isso a cada dia seja uma realidade, colocando em prática a nossa Hitória, Missão e Visão.</p>
+					</div>
+
+					<div class="grid-4 footer_contato">
+						<h3>Contato</h3>
+						<ul>
+							<li>- 11 91001-1010</li>
+							<li>- juliana@123.com</li>
+							<li>- São paulo - SP</li>
+						</ul>
+					</div>
+
+					<div class="grid-4 footer_redes">
+						<h3>Contato</h3>
+						<ul>
+							<li><a href="#" target="_blank"><img src="img/redes-sociais/facebook.svg"></a></li>
+							<li><a href="#" target="_blank"><img src="img/redes-sociais/instagram.svg"></a></li>
+							<li><a href="#" target="_blank"><img src="img/redes-sociais/twitter.svg"></a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="copy">
+				<div class="container">
+					<p class="grid-16">Juliana 2022 - Alguns direitos reservados.</p>
+				</div>
+			</div>
+		</footer>
+
+	<!-- JavaScript -->
+	<script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+	<!-- JavaScript -->
+
+
+	</body>
+</html>
